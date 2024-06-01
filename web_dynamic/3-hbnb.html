@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- HEAD -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Holberton AirBnB</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../static/images/icon.png?{{ cache_id }}">
+
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="../static/styles/4-common.css?{{ cache_id }}">
+    <link rel="stylesheet" href="../static/styles/3-header.css?{{ cache_id }}">
+    <link rel="stylesheet" href="../static/styles/3-footer.css?{{ cache_id }}">
+    <link rel="stylesheet" href="../static/styles/6-filters.css?{{ cache_id }}">
+    <link rel="stylesheet" href="../static/styles/8-places.css?{{ cache_id }}">
+    <link rel="stylesheet" href="../static/styles/font-awesome.css?{{ cache_id }}">
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="../static/scripts/3-hbnb.js?{{ cache_id }}"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div id="api_status"></div>
+    </header>
+    <main>
+        <div class="container">
+
+            <!-- FILTERS -->
+            <section class="filters">
+                <!-- LOCATIONS -->
+                <div class="locations">
+                    <h3>States</h3>
+                    <h4>&nbsp;</h4>
+                    <ul class="popover">
+                        <!-- Jinja section for displaying states and cities removed -->
+                    </ul>
+                </div>
+
+                <!-- AMENITIES -->
+                <div class="amenities">
+                    <h3>Amenities</h3>
+                    <h4>&nbsp;</h4>
+                    <ul class="popover">
+                        <!-- Jinja section for displaying amenities removed -->
+                    </ul>
+                </div>
+
+                <!-- SEARCH BUTTON -->
+                <button>Search</button>
+            </section>
+
+            <!-- PLACES (Removed entire Jinja section) -->
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        Holberton School
+    </footer>
+</body>
+</html>
+
